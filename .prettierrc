@@ -1,0 +1,34 @@
+{
+  "eofline": true,
+  "indent": [true, "tabs"],
+  "one-line": [true, "check-catch", "check-else", "check-open-brace", "check-whitespace"],
+  "semi": true,
+  "semicolon": [true, "always"],
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "typedef-whitespace": [
+    true,
+    {
+      "call-signature": "nospace",
+      "index-signature": "nospace",
+      "parameter": "nospace",
+      "property-declaration": "nospace",
+      "variable-declaration": "nospace"
+    },
+    {
+      "call-signature": "onespace",
+      "index-signature": "onespace",
+      "parameter": "onespace",
+      "property-declaration": "onespace",
+      "variable-declaration": "onespace"
+    }
+  ],
+  "whitespace": [
+    true,
+    "check-branch",
+    "check-decl",
+    "check-operator",
+    "check-separator",
+    "check-type"
+  ]
+}
